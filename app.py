@@ -50,7 +50,7 @@ if 'cz_db' not in st.session_state:
     st.session_state['cz_db'] = db_dict
     st.session_state['cz_df'] = db_df
 
-st.title("⚙️ BN3500 Rack Module Analyser")
+st.title("⚙️ BN3500 Rack Analyser")
 
 tab1, tab2 = st.tabs(["Rack module analyser", "🛠️ Edit CZ numbers"])
 
