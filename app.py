@@ -6,7 +6,7 @@ import zipfile
 import os
 from streamlit_gsheets import GSheetsConnection
 
-st.set_page_config(page_title="BN3500 Rack Analyser", layout="wide")
+st.set_page_config(page_title="BN3500 Analyser", layout="wide", page_icon="⚙️")
 
 try:
     conn = st.connection("gsheets", type=GSheetsConnection)
